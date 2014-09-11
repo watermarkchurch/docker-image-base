@@ -10,7 +10,7 @@ yum -y -q install bzip2 autoconf automake libtool bison iconv-devel
 yum -y -q install openssl openssl-devel
 
 # Install tools
-yum -y -q install less vim tree curl
+yum -y -q install less vim tree curl git
 
 # Cleanup
 yum clean all
